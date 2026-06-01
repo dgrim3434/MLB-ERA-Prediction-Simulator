@@ -192,6 +192,13 @@ l1_ratio = 0.5
 
 The selected model is then evaluated on the test set and saved using `joblib`.
 
+## Test Results
+
+| Model | MAE | RMSE | R² | MAPE |
+|---|---:|---:|---:|---:|
+| Best Model: ElasticNet | 1.181 | 1.160 | 0.131 | 0.266 |
+
+
 ## Model Output
 
 The notebook saves the final trained model as:
